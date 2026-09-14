@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="priority">7d32c53383074b50d87e1665eeaad395</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 12:48:41</sys_created_on>
+        <sys_id>ae72017383074b50d87e1665eeaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Low</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name>question_choice_ae72017383074b50d87e1665eeaad3d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 12:48:41</sys_updated_on>
+        <text>Low</text>
+        <value>low</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=ae72017383074b50d87e1665eeaad3d9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</application>
+        <file_path/>
+        <instance_id>482fe532ebc2cf5056eafddacad0cdfd</instance_id>
+        <instance_name>dev439522</instance_name>
+        <name>question_choice_ae72017383074b50d87e1665eeaad3d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="priority">7d32c53383074b50d87e1665eeaad395</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-07 12:48:41</sys_created_on><sys_id>ae72017383074b50d87e1665eeaad3d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Low</sys_name><sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope><sys_update_name>question_choice_ae72017383074b50d87e1665eeaad3d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-07 12:48:41</sys_updated_on><text>Low</text><value>low</value></question_choice><fx_price action="delete_multiple" query="id=ae72017383074b50d87e1665eeaad3d9"/></record_update>]]></payload>
+        <payload_hash>-934168049</payload_hash>
+        <record_name>Low</record_name>
+        <reverted_from/>
+        <source>530674b783834b50d87e1665eeaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 12:48:41</sys_created_on>
+        <sys_id>7b82c17383074b50d87e1665eeaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a07be9e5ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 12:48:41</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>3b82c1730b074b501ee5e5ca7357abf4</update_guid>
+        <update_guid_history>3b82c1730b074b501ee5e5ca7357abf4:-934168049</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Low">35f405b783074b50d87e1665eeaad331</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 12:59:11</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>4586422b5f7649d4811c71711a344310</sys_id>
+        <sys_metadata>ae72017383074b50d87e1665eeaad3d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Low</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_scope_delete display_value="">3cfc7b13807c4058afa4a9815f8cf240</sys_scope_delete>
+        <sys_update_name>question_choice_ae72017383074b50d87e1665eeaad3d9</sys_update_name>
+        <sys_update_version display_value="question_choice_ae72017383074b50d87e1665eeaad3d9">7b82c17383074b50d87e1665eeaad3f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 12:59:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

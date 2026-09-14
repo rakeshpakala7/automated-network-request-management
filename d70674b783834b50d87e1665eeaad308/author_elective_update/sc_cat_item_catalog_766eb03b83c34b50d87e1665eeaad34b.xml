@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Network Acess Request">f31e703b83c34b50d87e1665eeaad3f0</sc_cat_item>
+        <sc_catalog display_value="Netwok services">de5974bf83834b50d87e1665eeaad3ab</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 12:30:35</sys_created_on>
+        <sys_id>766eb03b83c34b50d87e1665eeaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Netwok services.Network Acess Request</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_766eb03b83c34b50d87e1665eeaad34b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 12:30:35</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</application>
+        <file_path/>
+        <instance_id>482fe532ebc2cf5056eafddacad0cdfd</instance_id>
+        <instance_name>dev439522</instance_name>
+        <name>sc_cat_item_catalog_766eb03b83c34b50d87e1665eeaad34b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Network Acess Request">f31e703b83c34b50d87e1665eeaad3f0</sc_cat_item><sc_catalog display_value="Netwok services">de5974bf83834b50d87e1665eeaad3ab</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-07 12:30:35</sys_created_on><sys_id>766eb03b83c34b50d87e1665eeaad34b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Netwok services.Network Acess Request</sys_name><sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope><sys_update_name>sc_cat_item_catalog_766eb03b83c34b50d87e1665eeaad34b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-07 12:30:35</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1228834793</payload_hash>
+        <record_name>Netwok services.Network Acess Request</record_name>
+        <reverted_from/>
+        <source>530674b783834b50d87e1665eeaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 12:30:35</sys_created_on>
+        <sys_id>b26ef83b83c34b50d87e1665eeaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a07bd9544e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 12:30:35</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>326ef83b44c34b50292cffa43a8537a4</update_guid>
+        <update_guid_history>326ef83b44c34b50292cffa43a8537a4:-1228834793</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Netwok services.Network Acess Request">ed62d00283df8f10d87e1665eeaad35b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:04:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1a1de7c6952f4244bc00210fa4a8b344</sys_id>
+        <sys_metadata>766eb03b83c34b50d87e1665eeaad34b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Netwok services.Network Acess Request</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_parent display_value="">f31e703b83c34b50d87e1665eeaad3f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_scope_delete display_value="">3cfc7b13807c4058afa4a9815f8cf240</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_766eb03b83c34b50d87e1665eeaad34b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_766eb03b83c34b50d87e1665eeaad34b">b26ef83b83c34b50d87e1665eeaad3a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:04:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

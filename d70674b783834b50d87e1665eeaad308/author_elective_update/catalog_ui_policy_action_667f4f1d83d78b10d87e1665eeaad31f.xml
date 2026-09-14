@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Network Issue/ connectivity Request">88882e1983938b10d87e1665eeaad3ae</catalog_item>
+        <catalog_variable>IO:171a0b5183d78b10d87e1665eeaad345</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message>Critical</field_message>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 14:55:40</sys_created_on>
+        <sys_id>667f4f1d83d78b10d87e1665eeaad31f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>severity</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_667f4f1d83d78b10d87e1665eeaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 15:05:03</sys_updated_on>
+        <table/>
+        <ui_policy display_value="set critical severity when user affected entire office">a2cd875983d78b10d87e1665eeaad31e</ui_policy>
+        <value>Critical</value>
+        <value_action>set_value</value_action>
+        <variable>severity</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=667f4f1d83d78b10d87e1665eeaad31f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</application>
+        <file_path/>
+        <instance_id>482fe532ebc2cf5056eafddacad0cdfd</instance_id>
+        <instance_name>dev439522</instance_name>
+        <name>catalog_ui_policy_action_667f4f1d83d78b10d87e1665eeaad31f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Network Issue/ connectivity Request">88882e1983938b10d87e1665eeaad3ae</catalog_item><catalog_variable>IO:171a0b5183d78b10d87e1665eeaad345</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message>Critical</field_message><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-12 14:55:40</sys_created_on><sys_id>667f4f1d83d78b10d87e1665eeaad31f</sys_id><sys_mod_count>3</sys_mod_count><sys_name>severity</sys_name><sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope><sys_update_name>catalog_ui_policy_action_667f4f1d83d78b10d87e1665eeaad31f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-12 15:05:03</sys_updated_on><table/><ui_policy display_value="set critical severity when user affected entire office">a2cd875983d78b10d87e1665eeaad31e</ui_policy><value>Critical</value><value_action>set_value</value_action><variable>severity</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=667f4f1d83d78b10d87e1665eeaad31f"/></record_update>]]></payload>
+        <payload_hash>-989654651</payload_hash>
+        <record_name>severity</record_name>
+        <reverted_from/>
+        <source>530674b783834b50d87e1665eeaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 15:05:03</sys_created_on>
+        <sys_id>1eb15791831b8b10d87e1665eeaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a096268b1a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 15:05:03</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>dab15791f71b8b1023320595a51f5e25</update_guid>
+        <update_guid_history>dab15791f71b8b1023320595a51f5e25:-989654651,d7411751f11b8b1007518f55393c87c2:1600170953,10f09711e41b8b10eed4d045ec224673:2026535738,bc9fc35d57d78b10f0150bf5b97e424f:1578069399</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="severity">ae429bd1831b8b10d87e1665eeaad34b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 15:07:32</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>847add3d54a4426a8f6f49eab780b871</sys_id>
+        <sys_metadata>667f4f1d83d78b10d87e1665eeaad31f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>severity</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_scope_delete display_value="">3cfc7b13807c4058afa4a9815f8cf240</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_667f4f1d83d78b10d87e1665eeaad31f</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_667f4f1d83d78b10d87e1665eeaad31f">1eb15791831b8b10d87e1665eeaad326</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 15:07:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

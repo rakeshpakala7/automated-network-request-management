@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="bb05fdb7838b4b50d87e1665eeaad313" extends="task" label="Network Task" max_length="40" name="x_2049346_automa_0_network_task" type="collection">
+        <element label="Request Item" max_length="32" name="request_item" reference="sc_req_item" type="reference"/>
+    </element>
+</database>

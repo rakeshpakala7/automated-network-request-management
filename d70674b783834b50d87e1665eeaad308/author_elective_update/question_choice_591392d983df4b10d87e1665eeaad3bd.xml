@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Aceess Duration">60e25ed983df4b10d87e1665eeaad323</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 10:31:49</sys_created_on>
+        <sys_id>591392d983df4b10d87e1665eeaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Temporary</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name>question_choice_591392d983df4b10d87e1665eeaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 10:31:49</sys_updated_on>
+        <text>Temporary</text>
+        <value>temporary</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=591392d983df4b10d87e1665eeaad3bd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</application>
+        <file_path/>
+        <instance_id>482fe532ebc2cf5056eafddacad0cdfd</instance_id>
+        <instance_name>dev439522</instance_name>
+        <name>question_choice_591392d983df4b10d87e1665eeaad3bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Aceess Duration">60e25ed983df4b10d87e1665eeaad323</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-12 10:31:49</sys_created_on><sys_id>591392d983df4b10d87e1665eeaad3bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Temporary</sys_name><sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope><sys_update_name>question_choice_591392d983df4b10d87e1665eeaad3bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-12 10:31:49</sys_updated_on><text>Temporary</text><value>temporary</value></question_choice><fx_price action="delete_multiple" query="id=591392d983df4b10d87e1665eeaad3bd"/></record_update>]]></payload>
+        <payload_hash>1059467782</payload_hash>
+        <record_name>Temporary</record_name>
+        <reverted_from/>
+        <source>530674b783834b50d87e1665eeaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 10:31:49</sys_created_on>
+        <sys_id>f323da1d83df4b10d87e1665eeaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0952c653d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 10:31:49</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>b323da1db6df4b10369056f8a6cd920a</update_guid>
+        <update_guid_history>b323da1db6df4b10369056f8a6cd920a:1059467782</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Temporary">0e43a69d83538b10d87e1665eeaad34d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 11:42:09</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0dd1dd5d7e3a46e1b219677becb0fef9</sys_id>
+        <sys_metadata>591392d983df4b10d87e1665eeaad3bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Temporary</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_parent display_value="Aceess Duration">60e25ed983df4b10d87e1665eeaad323</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_scope_delete display_value="">3cfc7b13807c4058afa4a9815f8cf240</sys_scope_delete>
+        <sys_update_name>question_choice_591392d983df4b10d87e1665eeaad3bd</sys_update_name>
+        <sys_update_version display_value="question_choice_591392d983df4b10d87e1665eeaad3bd">f323da1d83df4b10d87e1665eeaad30b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 11:42:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

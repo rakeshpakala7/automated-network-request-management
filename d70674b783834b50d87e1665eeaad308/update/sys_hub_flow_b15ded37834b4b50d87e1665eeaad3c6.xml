@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=84176000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>network_access_request_approval</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.requested_for","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"requested_for","usedInstances":{"72e4434d-edb6-4401-9e62-8fb58fde3759":["record","ah_to"],"971357b5-30d4-41fb-834b-740eb984266e":["ah_to"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"b437e4c2-8f1b-4415-97d1-5e2971ec5d2e":["record"],"39a51e74-6ad1-4e99-9da7-b44a5828aee7":["request_item"],"0079f572-1dd7-45e6-99c7-e6c234595e59":["request_item"],"971357b5-30d4-41fb-834b-740eb984266e":["record"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"b437e4c2-8f1b-4415-97d1-5e2971ec5d2e":["approval_conditions"]}},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","choices":[{"order":0.0}],"usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Service Catalog_1.request_item.requested_for.manager.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","choices":[{"order":0.0}],"usedInstances":{}},{"name":"b437e4c2-8f1b-4415-97d1-5e2971ec5d2e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f4abfaba-20c6-40b1-ad00-63deadec3a27":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>698fc28483530310d87e1665eeaad3af</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Network Access Request Approval</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>3d8f068483530310d87e1665eeaad330</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 15:55:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b15ded37834b4b50d87e1665eeaad3c6</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>Network Access Request Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name>sys_hub_flow_b15ded37834b4b50d87e1665eeaad3c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 16:18:55</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>d8d5b50683dbcf10d87e1665eeaad33d</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <published_version/>
+        <run_flow_in/>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d8f068483530310d87e1665eeaad330</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:18:33</sys_updated_on>
+        <trigger_definition/>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b15ded37834b4b50d87e1665eeaad3c6^sys_idNOT IN795ded37834b4b50d87e1665eeaad3ca"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b15ded37834b4b50d87e1665eeaad3c6</id>
+        <name>Network Access Request Approval</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 15:55:35</sys_created_on>
+        <sys_id>795ded37834b4b50d87e1665eeaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 15:55:35</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=795ded37834b4b50d87e1665eeaad3ca"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b15ded37834b4b50d87e1665eeaad3c6^sys_idNOT IN8edd213b834b4b50d87e1665eeaad375,92dd213b834b4b50d87e1665eeaad3b4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</model>
+        <model_id>b15ded37834b4b50d87e1665eeaad3c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b15ded37834b4b50d87e1665eeaad3c6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 15:57:47</sys_created_on>
+        <sys_id>8edd213b834b4b50d87e1665eeaad375</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 17:02:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8edd213b834b4b50d87e1665eeaad375"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</model>
+        <model_id>b15ded37834b4b50d87e1665eeaad3c6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_b15ded37834b4b50d87e1665eeaad3c6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 15:57:48</sys_created_on>
+        <sys_id>92dd213b834b4b50d87e1665eeaad3b4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:18:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=92dd213b834b4b50d87e1665eeaad3b4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=b15ded37834b4b50d87e1665eeaad3c6^sys_idNOT IN70da1d59831b4b10d87e1665eeaad399"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 06:25:35</sys_created_on>
+        <sys_id>70da1d59831b4b10d87e1665eeaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 06:25:35</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61T32vbMBD+V4KeNsjATtZm8dsYFALdCk3Xl1KMIp0SMVlyJdmtF/q/7y62E7fzxqB7knS/vu/uPt3tmeEbMCxj15WdXBj3OFlZNmXaRvCWm5umBHSKndMC0N5eLnWILLvbM7WGhwosurIP6ZSpW24qilfOw9a7ykrMUZcDCEUQGs8XEauCbymP7mswICJIliluAqDlexi+vuoQtN12hufpn1lsuPjxdxaniMk7CYpXJr5/I5/7KSu4lTw635yCvCtuoCgNj3A0Oi/BsyxNkimrifK6CSvZolpeEL6vbE5cc01Lqbu+8Cp1wGLN7ckidtpIDxb3ghRK7rFCpPr7Vy5NEOfJMhGL2XKxmCXzeZKos40SSojFpzQ5T8+WWHBcGKPE4iuVDDuDpwhWDgb2+3Q8cHllzcmwQ/m1XRX8KeifWPxjQnEKfLtn8h2feTeNfhDEIhz0af595/WYaLpGElLZWK0XKq7HxN+PgnTRoX35/wTTNxOcEcF2dFdl1A7Fwua0Wr4xlBOa0C7cg8CUPHq93WIiJjlTFfbbmC469gOVVgG3BSUpglbcf4/1zj1e9+u80PZAqXMaJ7g5vnhE5E0VaX57xmXNMYMUHT1iPB9UkT9UlHH4Jz1WfuiIAoLwuoyfRdQ1HD/tL0m7zRsJBQAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=b15ded37834b4b50d87e1665eeaad3c6^sys_idNOT IN82e8c24883130310d87e1665eeaad3e1,aabdca8083530310d87e1665eeaad3ce,b01c0acc83130310d87e1665eeaad363,b9fee1bb834b4b50d87e1665eeaad39b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>f4abfaba-20c6-40b1-ad00-63deadec3a27</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 12:34:31</sys_created_on>
+        <sys_id>82e8c24883130310d87e1665eeaad3e1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-12 06:33:00</sys_updated_on>
+        <ui_id>0079f572-1dd7-45e6-99c7-e6c234595e59</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WXU/bMBT9K5GfsyppSil9m0A8bTAB4mWl0U1803o4cbCdlq7qf991nJSKD41Je0FbpT74fvmcY1/ffN8ywdmUjWOMjk7icZ7ESTKMouFkFGfjJIuHPAHEEQtZBSVSpIVMYtouQrYC2TjjYzqMRifJaJxCY1UJaZRWaNdK36cWzD1FcmFqCZvbLuHCe4Mb782XQnKNFZt+vwtZDZrKW9Rsun3mei9YCRlKCr1xaN8Abzf1q7Yvh7nBhXcozR2eKGT4aLHiSEAKkAZDVkLFwSq9YVOrGzJoBH5Zyc0+YikqSwWZi3004idtO4lcXIHELEfv2y/TTixvLs7AwjVVzm2ju9B8qUSOxmvCsYBG2tNDmw+4rK1QlU9paXbZSjZldeElYfsC/dmQpTEEAmvH0yHvaBTXS7W+6lGei6qVpHNKlYPcr8BaLbLGOjxbhhJLKpSWUNeiWqS1VivRJhOWcrCQtBgUUq1pUyMW1QByB3xAssLgnOxnrfkWtHAsvlIZSt6FzGzMqQRjnriQiOlD45B4Zh2H1MvgUnItavuZNlhhB3cX9l3AMTp582LF2dNFai++OegAjQ9ksKmwWM6aKEr4dnuNekWnEJwSDakWaTw4jNrt5maptHWcW0zE2Gf2zQE5nacJuqTgU1A0shBSOi1bq9DI50SftGn1XWjV1N3us77lZmw6e+o3hHLGwpnH3bqQ5+PkJMsmySQbZUcRnxxjPB4fIQLwJI/bcBI6Ffyd8bt5rYXSwm48luHcWLDoF/H8Bd9vEsFgzy6wSwyqVyUYzPSscv8rXAlct5GdC3ngRA0KpVszlrVUG2w3HR6bvpDr7zDg6M4lDHqYYZA1RlQu4EdjrChEDg5eGFBrB8C5cCuQlGhBSDN4+aD9P/9/7Pz/cGT9/mXpR9a5QMnNK09NP68cNZIz9U/Ps5nVOYPbztnNrfhvza14HLW/DzS9PLkPP7wOvlPeGGN3vwDLQYrvzgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=82e8c24883130310d87e1665eeaad3e1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>f4abfaba-20c6-40b1-ad00-63deadec3a27</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 12:55:34</sys_created_on>
+        <sys_id>aabdca8083530310d87e1665eeaad3ce</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-12 06:33:00</sys_updated_on>
+        <ui_id>971357b5-30d4-41fb-834b-740eb984266e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2XXW/bNhSG/wqna8+V7diOc5c5yBogTYE46DA0hUCRlM2VElWSiusG/u87lChLtlPHSlwswXKpw6+Xh+/DI36+9zj1TrwjeuwPwugID/1et+f7x93RKOyNIv94OPI7hHotL8Exg56KEans9x0WmQ3c30+YuuOEoTE2WMhp0Gkr9i1j2gTcsHi5hM6U61TgxSc3BiJkxgVVLPFOPn9peSlWML1hyju532jaV5/AIRPQ9QarKTPoutS5qdssUvtNJcliloDGMnjpJjhzLejiDFpgkFXltzz23bCEMpATYaFZy4txQrGRarGKKIbpx0RUgRlPDEx5qrUkHBumkZkxxGLMBZpzM0MYFcLanp3vu+Y/QFyva6eKGOSAWK08IZyCIq8WDlxKofmiao7O4AwmRmXEZGqVaQmno4tsUhbhTJhxPVZ0+JgaLpNiiMGhKEdLkcXJVZFEbzVB7SQzDWJYanNjNwuLw8ajyUzOr0ux5zzJs+iyIiTBYvUVTRhWZHbOmbBHnWRxCH1bHjZG8TAzViaYQkCvap0gl2rXgp5MsPwoY5ymPJkGqZJ3PF8Q5MftqYCPdiTkHMZrPk3amNi9tuH0cPsc4md5+BNW3G78A0wDg5ctTy/0WGCtq+1D/oNvmVVfJGNdjh0d5Iazg4niqTmFpe6Y2+yy5XjrjHb5mR5Vvq3NWTGnSQCI5Xhtw3VdwMcouijam6G2h7QKNWuTh6U6zLZil/Wx6KpocJB1GkJWWM0xdgNgmYL9AilknLwVV8f+Olc/4ellcLSiY2+Q1oH5NVCASXRQONvtLV/8CbA8hog/GIThIOwPe5UPRySiwzAa4CHpVb6bw8WqYqy+BvnFWuOks02HuzKaMbGHlpIJuIxFRhn6qxS1S6eDJJQSbrdkkxBQ+u48z+6KkO6zylBhTWQkgsMUCyg+K0k2WJUmM8MGcY00nFYb3UjE3a5qI1poITMUZ9pANwMta/Ct1bOjl8uds4OLnj3olVcB5uEB7O8uBLgyNp4FRjb4JSw/GA0iqZZLtI3pU6ZoxvQe21vVObm9V4euhpNNphvkTsqgo7a3m9qijG1BWytb/ssF6LXwYYULHvPcEAXZh0eG7vQU89dsREgNmQO8kfZYvDT0eLytpImhj55Wht4c/eoc3dn58GaDNR+Fh7b0HquXlv5jw9NhY1P330z9PzF1f7etyJqRdBb+w4ipGfuKmbmEX+ZTAkejkXtvo9PUpoDRbd8/PqDhr8vj+kssJiv1D+2oCR6Dt5+Y/5yOw6OAd1op6q7fqZIuahzcZr7fIymymn83PFnEhCkpTQiJ+Zo30lvvtujG3jMhZKsY8i4tYrdJoyn+lJKihM31b+hvmSn0E6xmWKOQscQ+cnO+ULiwb1WFwK54ylR7XcU2r07VHsJ/tbBm98Ieh7kql8VRbp2tuxFmJhYb98H7mw+X1W0wfGaxHPT7vcHbffDsapnOaZcqmaZubweumF/+Be5S8eUhGgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aabdca8083530310d87e1665eeaad3ce"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>454e7a71-bdce-4618-8d7d-0899ad86d767</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 12:48:21</sys_created_on>
+        <sys_id>b01c0acc83130310d87e1665eeaad363</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-12 06:33:00</sys_updated_on>
+        <ui_id>72e4434d-edb6-4401-9e62-8fb58fde3759</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXW/iOBSG/4qVa4YJUKD0rgPq7kidzqhUs1pNR5HjOOBdx05tpwxb9b/vceKQBLoUWma31fYKxZ/vOX4ff/DtzmORd+IdRcf+IIyP8NDvdXu+f9wdjcLeKPaPhyO/QyKv5QmcUGipKJHKft9intmCu7spVbeMUDTGBnM5CzptRW8yqk3ADE3KDxoFsVT399A1YjrlePnVjQAlZM54pKjwTr59b3kpVjCZoco7uVur2lUtxyHl0PQKqxk16LJUvR6FWab2O5IkS6gAxWXhuRtg4mrQxwnUQCerym959IehIqIgJ8Zc05aXYBFhI9VyVaIojj4LXhXMmTAw5KnWkjBsqEZmThFNMONowcwcYVQIa3t2vB+a/QXiel07VEwhB8RqZYKwCBR5teLApRSqP1bV8QRWZGpURkymVpmWsFa6yGZEY5xxM66XFQ0+p4ZJUXQxOORlb8mzRFwUSfRWA9RWMtMghqY2NzZYmBwCj6dzubgsxZ4xkWfRZYVLgvnqK55SrMj8jFFul1pkSQhtWx42RrEwM1YmmIJDq2qeIJdq54KWlNN8KROcpkzMglTJW5ZPCPKT9ozDRzvmcgH9NZuJNiY21jasHm6fQfkkL/6KFbOBf4JhoPN9y9NLPeZY6yp8yH9wk1n1RTKacmzvIDec7UwUS80pTHVLXbD3LUdfZ7TNz9FR5dvamBWBoCuAtKtNsi5L9BCgtzdmO8iqMLMWeVimQ2yj7LzeF10UFQ6wzp6AFTZzfF0BVKbgvsAJGSdvxdSx32TqH1h6GQytyNgZoiYsPwcIMIkOCle72PLJnwDKY3j4g0EYDsL+sFf5cETiaBjGAzwkvcp3C9hUVYLVn0G+qdYY6WzC4baL/ZjYQUvJBGzEPIso+q0UtU2ngySUEnY2sU4IKH1/lmd3RUj3WUdQYU1kJILF5Es4eFaSbGF1LJk5NohppGG12uhKIuaiqvVooaXMUJJpA80M1DTga5xlRy+XO2cHVzp50CuvAszDA9jffhDgyth4Hhj5jMsh2sT0KUPsx/QO4a3OObkZq0NXw8qK2Rq507LQUdvbTm1xjG1AWzu2/JcL0GvhwwrnLGG5IQqyD49MtNVT1G/YiJAaMgd4H+0weWno8XhTyT6GPnraMfTm6Ffn6M7WRzcdNHwUHtrSO8xeWvrDmqfDvU3dfzP1/8TU/e22Ig0j6Sz8gxJTM/YFNQsJV+ZTAkujkXtuw69tR6NN3z/eYc+ry+P6SyymK/UPRbQPHoO3S8x/TsfhUcBbrRR3m3uqjJY1Dq4z3++RFBGrJ/+Irr0vk5tu+kugIQF5RKcCFkaNpTCYCaquPWRDfKfhtWjKPh2/1ykrQHxVPOpfF7PQ32WmkHAc4YIj9wRAc6xRSKmAggIoFC7t41Qh8CeeUdUulL5Pi7GuRan8ASkdv/uQlM6oV0r5Am91TWGyW0YX+aO5FBJRCJJrBFQgYiMmpqEDsTh/NAtq/5vLFPSFMgEPmATbXDVlbu4jT0v4T0zgv56Q/fbJHcy9uj4U1t7wutsh5ybha/vjr1efzqvdcfjMy8Og3+8N3vbHZ98e0kXUjZRMUxfbgW8Q3/8GS75UpzsbAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b01c0acc83130310d87e1665eeaad363"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 16:02:41</sys_created_on>
+        <sys_id>b9fee1bb834b4b50d87e1665eeaad39b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-12 06:33:00</sys_updated_on>
+        <ui_id>b437e4c2-8f1b-4415-97d1-5e2971ec5d2e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YUW/aOhT+K5GfKUsIpKFvVVGlXt1tUtv1pVSRsU/A9waH2Uk7hvjvO4kdkkFLYaVSO/UFyecc258/fx+2c7sggpMTAt3A7+HPcey7XsdzQwjCkPVdysIg6HV90iKSTgEr6Wym0nuaRAqoTiUmsJEXmc9U0jEop6pwFHzPhQLuxKlyJGQPqfrfoYyB1mUOdIbdudCzhM5vXjYKm4iEK5Dk5PauRWZUIdoMFDlZrKV2XW5CR5Bg6WmF47Ja75NEZPNZkdCZEnJs2//aYa6qYKp4AavTIvAjA8kB8cQ00dAiUyo5zVI1X0VwaP5VJnVgImSGo5Gi+IcWP3E+L3CLwhhwiQxMctWMLLsmHA9oRhFJzrJc2VI2SQVyacjhENM8yc6aMVPwdZYJXGTZJaOjpOqdJvlUfjGMkNUA1WZiJNcIAmbFSgvodh3x1SR9uKxQngtZkmKTScposmrRDKkb5VmBZ0Fycb3Gsols8AwJTHHGaIr7hJGo2CxRzoKgp+1xgo12nKQPiE6LsWxTVqywjTtA2+cYH5ThG6pEsdzPOAx2Lqb7JgWq7qLQUdAZBX035Ec8dkdH3dDvHVEG7hEEXg96PGA9zyfLFtFzfZZQrWuicIei73mxTEObJSgyHBddmBKz7BRB3YPlYtmybnW9uAP9fscdea7ru27YY27ow8g/Do59ysNHRBoLSHjDrFVi04CNzH6m2gHVhqnOLayn4FpLlc2oLPrdVmV/54tJHNxaoeu+J2/h5C+x1us4Zn/1GwqesQDbKjZoHFj/pbmSWxwQTYQulfGkExoV+zliB5CVI/4xKNcNsQ7+T/zgf/jh7/fDcbhNasytJaWAoTAaRlgsrkDdI+/OGSJP0nHkte3FKhIZTJfLTWvsbYUd8FVWuKwArgO24ucpy8uNEXxN/QObcS4Gtfzd7fI3ItlF/X7nQ/tvUvust01bcb+WEs+RJJpBU/1DYrAPycmQyFTCkLSGpKiKCm2VYaxAhKtEGVssTTtX1Hb3Gs26L6dzXVZqNgGeJyb6WyQqpW/jh3DbDoxUbhvk4AwMJZskVS+aCqdhRWwcO1e2oBzp07VoHj+9gx0/3fd0+Lz0ofN675dodcNHf+HfxCs8ULpb9QcNsa3uWCyVXBQr0A1zmncC6FM5/3b73DlVNYBHcaraU/MhYbm82zTUwcbdz5Y70LI6BNFN+jmarD3rLxG2U9Oa9fcLm7S27B7qWHxnl8K36cvDW3DEtl64WK0tw2ZtOs0iVHwp/U3nXFZecC5Mfj8H7ICqcsC1hbWG0mq+bD72Aiq7rb2AvD2PICP+R7X+ofQ3o/S7X+WYYju9FgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b9fee1bb834b4b50d87e1665eeaad39b"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b15ded37834b4b50d87e1665eeaad3c6^sys_idNOT INa91db9b783cb4b50d87e1665eeaad319,badb0ec883130310d87e1665eeaad328"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">651db9b783cb4b50d87e1665eeaad318</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 17:04:23</sys_created_on>
+        <sys_id>a91db9b783cb4b50d87e1665eeaad319</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:18:31</sys_updated_on>
+        <ui_id>f4abfaba-20c6-40b1-ad00-63deadec3a27</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U224TMRD9FeTnJNpr0uStAlVCAirRqi9QrWbt2cTCay+2t2mI8u+M95JGJAiE+sjb+ngu58wc756Z1jetd/fm2jm51mz15XHCpA4Yfe+ZhhrZinGjhfTSaDZhT6DagO33ZZYuMOPJ9KqKy2mWxfl0uRDxNMdkuYiR5yLBGTSNNZRTOA8eD4evbRSlokdRUD0hXaNg9/DKZflGKmFxkNSAJSUeLVvtf7nyuwYLBSUq6n7nrdRrSpeCTkvIqzyOcp4m8zSJouQqi8t5WsaJSAGzOcWNiW9PJnRhaKEJQW4sb6wIXJJowvDZoxbEeVWBcjhhNWgB3tgdW3nbEmARxK1Wu2PERmpP1ViIfXbyB4ZKURQiKyRhHPvb47EYhtzDfGMkx9um49YhHko15HCj2lp/6iWE9WAFrfLjeghpHdXDJpAONAZO1d3GbD+PDW+k7gQOl8pwUMcTeBpD2Xp0YRuosKZCRU3Lo+EUYYOySyYu9Wyt6DCrlNlS0+DRGfBAfEYzgtkN4e86+AGsDCo+UhlKpg26wnErm1Fb15wduqkU39vAp9c3KCn6YVBAn3ZNbZ5wIH2YnL+FogNeHsS5l1/JhlUEVbzk8WUbQnrJhm8+dMi5GUfWv3Fk/AdHDshfWTLP/zvy1JGBZglO8qL7w1K58L7/2ZKPwXp9C9d7SCCXjpjcB+z9+BcPFzvauuSn0NbYb0HDC3b4CaUFjygPBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">958fc28483530310d87e1665eeaad35c</block>
+        <comment/>
+        <connected_to>f4abfaba-20c6-40b1-ad00-63deadec3a27</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 12:47:23</sys_created_on>
+        <sys_id>badb0ec883130310d87e1665eeaad328</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:18:31</sys_updated_on>
+        <ui_id>454e7a71-bdce-4618-8d7d-0899ad86d767</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b15ded37834b4b50d87e1665eeaad3c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 15:57:48</sys_created_on>
+        <sys_id>1add213b834b4b50d87e1665eeaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 15:57:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b15ded37834b4b50d87e1665eeaad3c6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 15:57:48</sys_created_on>
+        <sys_id>5edd213b834b4b50d87e1665eeaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 15:57:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b15ded37834b4b50d87e1665eeaad3c6"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>network_access_request_approval</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.requested_for","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"requested_for","usedInstances":{"72e4434d-edb6-4401-9e62-8fb58fde3759":["record","ah_to"],"971357b5-30d4-41fb-834b-740eb984266e":["ah_to"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"b437e4c2-8f1b-4415-97d1-5e2971ec5d2e":["record"],"39a51e74-6ad1-4e99-9da7-b44a5828aee7":["request_item"],"0079f572-1dd7-45e6-99c7-e6c234595e59":["request_item"],"971357b5-30d4-41fb-834b-740eb984266e":["record"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.requested_for.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"b437e4c2-8f1b-4415-97d1-5e2971ec5d2e":["approval_conditions"]}},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","choices":[{"order":0.0}],"usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Service Catalog_1.request_item.requested_for.manager.manager","label":"Trigger - Service Catalog➛Requested Item Record➛Requested for➛Manager➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","choices":[{"order":0.0}],"usedInstances":{}},{"name":"b437e4c2-8f1b-4415-97d1-5e2971ec5d2e.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f4abfaba-20c6-40b1-ad00-63deadec3a27":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Network Access Request Approval</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>698fc28483530310d87e1665eeaad3af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:18:33</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=698fc28483530310d87e1665eeaad3af"/>
+    <sys_variable_value action="delete_multiple" query="document_key=698fc28483530310d87e1665eeaad3af"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=698fc28483530310d87e1665eeaad3af"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=698fc28483530310d87e1665eeaad3af^sys_idNOT IN258fc28483530310d87e1665eeaad3b2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>698fc28483530310d87e1665eeaad3af</id>
+        <name>Network Access Request Approval</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:25</sys_created_on>
+        <sys_id>258fc28483530310d87e1665eeaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 13:03:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=258fc28483530310d87e1665eeaad3b2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=698fc28483530310d87e1665eeaad3af^sys_idNOT IN298fc28483530310d87e1665eeaad3d3,2d8fc28483530310d87e1665eeaad3b4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Network Access Request Approval">698fc28483530310d87e1665eeaad3af</model>
+        <model_id>698fc28483530310d87e1665eeaad3af</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_698fc28483530310d87e1665eeaad3af</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_id>298fc28483530310d87e1665eeaad3d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:18:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=298fc28483530310d87e1665eeaad3d3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Network Access Request Approval">698fc28483530310d87e1665eeaad3af</model>
+        <model_id>698fc28483530310d87e1665eeaad3af</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_698fc28483530310d87e1665eeaad3af</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:25</sys_created_on>
+        <sys_id>2d8fc28483530310d87e1665eeaad3b4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:18:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2d8fc28483530310d87e1665eeaad3b4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=698fc28483530310d87e1665eeaad3af"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=698fc28483530310d87e1665eeaad3af"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=698fc28483530310d87e1665eeaad3af^sys_idNOT INa18fc28483530310d87e1665eeaad3fc"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">698fc28483530310d87e1665eeaad3af</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_id>a18fc28483530310d87e1665eeaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 13:03:26</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61T32vbMBD+V4KeNsjATtZm8dsYFALdCk3Xl1KMIp0SMVlyJdmtF/q/7y62E7fzxqB7knS/vu/uPt3tmeEbMCxj15WdXBj3OFlZNmXaRvCWm5umBHSKndMC0N5eLnWILLvbM7WGhwosurIP6ZSpW24qilfOw9a7ykrMUZcDCEUQGs8XEauCbymP7mswICJIliluAqDlexi+vuoQtN12hufpn1lsuPjxdxaniMk7CYpXJr5/I5/7KSu4lTw635yCvCtuoCgNj3A0Oi/BsyxNkimrifK6CSvZolpeEL6vbE5cc01Lqbu+8Cp1wGLN7ckidtpIDxb3ghRK7rFCpPr7Vy5NEOfJMhGL2XKxmCXzeZKos40SSojFpzQ5T8+WWHBcGKPE4iuVDDuDpwhWDgb2+3Q8cHllzcmwQ/m1XRX8KeifWPxjQnEKfLtn8h2feTeNfhDEIhz0af595/WYaLpGElLZWK0XKq7HxN+PgnTRoX35/wTTNxOcEcF2dFdl1A7Fwua0Wr4xlBOa0C7cg8CUPHq93WIiJjlTFfbbmC469gOVVgG3BSUpglbcf4/1zj1e9+u80PZAqXMaJ7g5vnhE5E0VaX57xmXNMYMUHT1iPB9UkT9UlHH4Jz1WfuiIAoLwuoyfRdQ1HD/tL0m7zRsJBQAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=698fc28483530310d87e1665eeaad3af^sys_idNOT IN218fc28483530310d87e1665eeaad3f8,2d8fc28483530310d87e1665eeaad3f6,2d8fc28483530310d87e1665eeaad3fa,ad8fc28483530310d87e1665eeaad3f9"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">698fc28483530310d87e1665eeaad3af</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>f4abfaba-20c6-40b1-ad00-63deadec3a27</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_id>218fc28483530310d87e1665eeaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 13:03:26</sys_updated_on>
+        <ui_id>0079f572-1dd7-45e6-99c7-e6c234595e59</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WXU/bMBT9K5GfsyppSil9m0A8bTAB4mWl0U1803o4cbCdlq7qf991nJSKD41Je0FbpT74fvmcY1/ffN8ywdmUjWOMjk7icZ7ESTKMouFkFGfjJIuHPAHEEQtZBSVSpIVMYtouQrYC2TjjYzqMRifJaJxCY1UJaZRWaNdK36cWzD1FcmFqCZvbLuHCe4Mb782XQnKNFZt+vwtZDZrKW9Rsun3mei9YCRlKCr1xaN8Abzf1q7Yvh7nBhXcozR2eKGT4aLHiSEAKkAZDVkLFwSq9YVOrGzJoBH5Zyc0+YikqSwWZi3004idtO4lcXIHELEfv2y/TTixvLs7AwjVVzm2ju9B8qUSOxmvCsYBG2tNDmw+4rK1QlU9paXbZSjZldeElYfsC/dmQpTEEAmvH0yHvaBTXS7W+6lGei6qVpHNKlYPcr8BaLbLGOjxbhhJLKpSWUNeiWqS1VivRJhOWcrCQtBgUUq1pUyMW1QByB3xAssLgnOxnrfkWtHAsvlIZSt6FzGzMqQRjnriQiOlD45B4Zh2H1MvgUnItavuZNlhhB3cX9l3AMTp582LF2dNFai++OegAjQ9ksKmwWM6aKEr4dnuNekWnEJwSDakWaTw4jNrt5maptHWcW0zE2Gf2zQE5nacJuqTgU1A0shBSOi1bq9DI50SftGn1XWjV1N3us77lZmw6e+o3hHLGwpnH3bqQ5+PkJMsmySQbZUcRnxxjPB4fIQLwJI/bcBI6Ffyd8bt5rYXSwm48luHcWLDoF/H8Bd9vEsFgzy6wSwyqVyUYzPSscv8rXAlct5GdC3ngRA0KpVszlrVUG2w3HR6bvpDr7zDg6M4lDHqYYZA1RlQu4EdjrChEDg5eGFBrB8C5cCuQlGhBSDN4+aD9P/9/7Pz/cGT9/mXpR9a5QMnNK09NP68cNZIz9U/Ps5nVOYPbztnNrfhvza14HLW/DzS9PLkPP7wOvlPeGGN3vwDLQYrvzgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=218fc28483530310d87e1665eeaad3f8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">698fc28483530310d87e1665eeaad3af</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_id>2d8fc28483530310d87e1665eeaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 13:03:26</sys_updated_on>
+        <ui_id>b437e4c2-8f1b-4415-97d1-5e2971ec5d2e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YUW/aOhT+K5GfKUsIpKFvVVGlXt1tUtv1pVSRsU/A9waH2Uk7hvjvO4kdkkFLYaVSO/UFyecc258/fx+2c7sggpMTAt3A7+HPcey7XsdzQwjCkPVdysIg6HV90iKSTgEr6Wym0nuaRAqoTiUmsJEXmc9U0jEop6pwFHzPhQLuxKlyJGQPqfrfoYyB1mUOdIbdudCzhM5vXjYKm4iEK5Dk5PauRWZUIdoMFDlZrKV2XW5CR5Bg6WmF47Ja75NEZPNZkdCZEnJs2//aYa6qYKp4AavTIvAjA8kB8cQ00dAiUyo5zVI1X0VwaP5VJnVgImSGo5Gi+IcWP3E+L3CLwhhwiQxMctWMLLsmHA9oRhFJzrJc2VI2SQVyacjhENM8yc6aMVPwdZYJXGTZJaOjpOqdJvlUfjGMkNUA1WZiJNcIAmbFSgvodh3x1SR9uKxQngtZkmKTScposmrRDKkb5VmBZ0Fycb3Gsols8AwJTHHGaIr7hJGo2CxRzoKgp+1xgo12nKQPiE6LsWxTVqywjTtA2+cYH5ThG6pEsdzPOAx2Lqb7JgWq7qLQUdAZBX035Ec8dkdH3dDvHVEG7hEEXg96PGA9zyfLFtFzfZZQrWuicIei73mxTEObJSgyHBddmBKz7BRB3YPlYtmybnW9uAP9fscdea7ru27YY27ow8g/Do59ysNHRBoLSHjDrFVi04CNzH6m2gHVhqnOLayn4FpLlc2oLPrdVmV/54tJHNxaoeu+J2/h5C+x1us4Zn/1GwqesQDbKjZoHFj/pbmSWxwQTYQulfGkExoV+zliB5CVI/4xKNcNsQ7+T/zgf/jh7/fDcbhNasytJaWAoTAaRlgsrkDdI+/OGSJP0nHkte3FKhIZTJfLTWvsbYUd8FVWuKwArgO24ucpy8uNEXxN/QObcS4Gtfzd7fI3ItlF/X7nQ/tvUvust01bcb+WEs+RJJpBU/1DYrAPycmQyFTCkLSGpKiKCm2VYaxAhKtEGVssTTtX1Hb3Gs26L6dzXVZqNgGeJyb6WyQqpW/jh3DbDoxUbhvk4AwMJZskVS+aCqdhRWwcO1e2oBzp07VoHj+9gx0/3fd0+Lz0ofN675dodcNHf+HfxCs8ULpb9QcNsa3uWCyVXBQr0A1zmncC6FM5/3b73DlVNYBHcaraU/MhYbm82zTUwcbdz5Y70LI6BNFN+jmarD3rLxG2U9Oa9fcLm7S27B7qWHxnl8K36cvDW3DEtl64WK0tw2ZtOs0iVHwp/U3nXFZecC5Mfj8H7ICqcsC1hbWG0mq+bD72Aiq7rb2AvD2PICP+R7X+ofQ3o/S7X+WYYju9FgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2d8fc28483530310d87e1665eeaad3f6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">698fc28483530310d87e1665eeaad3af</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>454e7a71-bdce-4618-8d7d-0899ad86d767</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_id>2d8fc28483530310d87e1665eeaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 13:03:26</sys_updated_on>
+        <ui_id>72e4434d-edb6-4401-9e62-8fb58fde3759</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXW/iOBSG/4qVa4YJUKD0rgPq7kidzqhUs1pNR5HjOOBdx05tpwxb9b/vceKQBLoUWma31fYKxZ/vOX4ff/DtzmORd+IdRcf+IIyP8NDvdXu+f9wdjcLeKPaPhyO/QyKv5QmcUGipKJHKft9intmCu7spVbeMUDTGBnM5CzptRW8yqk3ADE3KDxoFsVT399A1YjrlePnVjQAlZM54pKjwTr59b3kpVjCZoco7uVur2lUtxyHl0PQKqxk16LJUvR6FWab2O5IkS6gAxWXhuRtg4mrQxwnUQCerym959IehIqIgJ8Zc05aXYBFhI9VyVaIojj4LXhXMmTAw5KnWkjBsqEZmThFNMONowcwcYVQIa3t2vB+a/QXiel07VEwhB8RqZYKwCBR5teLApRSqP1bV8QRWZGpURkymVpmWsFa6yGZEY5xxM66XFQ0+p4ZJUXQxOORlb8mzRFwUSfRWA9RWMtMghqY2NzZYmBwCj6dzubgsxZ4xkWfRZYVLgvnqK55SrMj8jFFul1pkSQhtWx42RrEwM1YmmIJDq2qeIJdq54KWlNN8KROcpkzMglTJW5ZPCPKT9ozDRzvmcgH9NZuJNiY21jasHm6fQfkkL/6KFbOBf4JhoPN9y9NLPeZY6yp8yH9wk1n1RTKacmzvIDec7UwUS80pTHVLXbD3LUdfZ7TNz9FR5dvamBWBoCuAtKtNsi5L9BCgtzdmO8iqMLMWeVimQ2yj7LzeF10UFQ6wzp6AFTZzfF0BVKbgvsAJGSdvxdSx32TqH1h6GQytyNgZoiYsPwcIMIkOCle72PLJnwDKY3j4g0EYDsL+sFf5cETiaBjGAzwkvcp3C9hUVYLVn0G+qdYY6WzC4baL/ZjYQUvJBGzEPIso+q0UtU2ngySUEnY2sU4IKH1/lmd3RUj3WUdQYU1kJILF5Es4eFaSbGF1LJk5NohppGG12uhKIuaiqvVooaXMUJJpA80M1DTga5xlRy+XO2cHVzp50CuvAszDA9jffhDgyth4Hhj5jMsh2sT0KUPsx/QO4a3OObkZq0NXw8qK2Rq507LQUdvbTm1xjG1AWzu2/JcL0GvhwwrnLGG5IQqyD49MtNVT1G/YiJAaMgd4H+0weWno8XhTyT6GPnraMfTm6Ffn6M7WRzcdNHwUHtrSO8xeWvrDmqfDvU3dfzP1/8TU/e22Ig0j6Sz8gxJTM/YFNQsJV+ZTAkujkXtuw69tR6NN3z/eYc+ry+P6SyymK/UPRbQPHoO3S8x/TsfhUcBbrRR3m3uqjJY1Dq4z3++RFBGrJ/+Irr0vk5tu+kugIQF5RKcCFkaNpTCYCaquPWRDfKfhtWjKPh2/1ykrQHxVPOpfF7PQ32WmkHAc4YIj9wRAc6xRSKmAggIoFC7t41Qh8CeeUdUulL5Pi7GuRan8ASkdv/uQlM6oV0r5Am91TWGyW0YX+aO5FBJRCJJrBFQgYiMmpqEDsTh/NAtq/5vLFPSFMgEPmATbXDVlbu4jT0v4T0zgv56Q/fbJHcy9uj4U1t7wutsh5ybha/vjr1efzqvdcfjMy8Og3+8N3vbHZ98e0kXUjZRMUxfbgW8Q3/8GS75UpzsbAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2d8fc28483530310d87e1665eeaad3fa"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">698fc28483530310d87e1665eeaad3af</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>f4abfaba-20c6-40b1-ad00-63deadec3a27</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_id>ad8fc28483530310d87e1665eeaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 13:03:26</sys_updated_on>
+        <ui_id>971357b5-30d4-41fb-834b-740eb984266e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2XXW/bNhSG/wqna8+V7diOc5c5yBogTYE46DA0hUCRlM2VElWSiusG/u87lChLtlPHSlwswXKpw6+Xh+/DI36+9zj1TrwjeuwPwugID/1et+f7x93RKOyNIv94OPI7hHotL8Exg56KEans9x0WmQ3c30+YuuOEoTE2WMhp0Gkr9i1j2gTcsHi5hM6U61TgxSc3BiJkxgVVLPFOPn9peSlWML1hyju532jaV5/AIRPQ9QarKTPoutS5qdssUvtNJcliloDGMnjpJjhzLejiDFpgkFXltzz23bCEMpATYaFZy4txQrGRarGKKIbpx0RUgRlPDEx5qrUkHBumkZkxxGLMBZpzM0MYFcLanp3vu+Y/QFyva6eKGOSAWK08IZyCIq8WDlxKofmiao7O4AwmRmXEZGqVaQmno4tsUhbhTJhxPVZ0+JgaLpNiiMGhKEdLkcXJVZFEbzVB7SQzDWJYanNjNwuLw8ajyUzOr0ux5zzJs+iyIiTBYvUVTRhWZHbOmbBHnWRxCH1bHjZG8TAzViaYQkCvap0gl2rXgp5MsPwoY5ymPJkGqZJ3PF8Q5MftqYCPdiTkHMZrPk3amNi9tuH0cPsc4md5+BNW3G78A0wDg5ctTy/0WGCtq+1D/oNvmVVfJGNdjh0d5Iazg4niqTmFpe6Y2+yy5XjrjHb5mR5Vvq3NWTGnSQCI5Xhtw3VdwMcouijam6G2h7QKNWuTh6U6zLZil/Wx6KpocJB1GkJWWM0xdgNgmYL9AilknLwVV8f+Olc/4ellcLSiY2+Q1oH5NVCASXRQONvtLV/8CbA8hog/GIThIOwPe5UPRySiwzAa4CHpVb6bw8WqYqy+BvnFWuOks02HuzKaMbGHlpIJuIxFRhn6qxS1S6eDJJQSbrdkkxBQ+u48z+6KkO6zylBhTWQkgsMUCyg+K0k2WJUmM8MGcY00nFYb3UjE3a5qI1poITMUZ9pANwMta/Ct1bOjl8uds4OLnj3olVcB5uEB7O8uBLgyNp4FRjb4JSw/GA0iqZZLtI3pU6ZoxvQe21vVObm9V4euhpNNphvkTsqgo7a3m9qijG1BWytb/ssF6LXwYYULHvPcEAXZh0eG7vQU89dsREgNmQO8kfZYvDT0eLytpImhj55Wht4c/eoc3dn58GaDNR+Fh7b0HquXlv5jw9NhY1P330z9PzF1f7etyJqRdBb+w4ipGfuKmbmEX+ZTAkejkXtvo9PUpoDRbd8/PqDhr8vj+kssJiv1D+2oCR6Dt5+Y/5yOw6OAd1op6q7fqZIuahzcZr7fIymymn83PFnEhCkpTQiJ+Zo30lvvtujG3jMhZKsY8i4tYrdJoyn+lJKihM31b+hvmSn0E6xmWKOQscQ+cnO+ULiwb1WFwK54ylR7XcU2r07VHsJ/tbBm98Ieh7kql8VRbp2tuxFmJhYb98H7mw+X1W0wfGaxHPT7vcHbffDsapnOaZcqmaZubweumF/+Be5S8eUhGgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ad8fc28483530310d87e1665eeaad3f9"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=698fc28483530310d87e1665eeaad3af"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=698fc28483530310d87e1665eeaad3af^sys_idNOT IN6d8fc28483530310d87e1665eeaad3f2,ed8fc28483530310d87e1665eeaad3f4"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">651db9b783cb4b50d87e1665eeaad318</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">698fc28483530310d87e1665eeaad3af</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_id>6d8fc28483530310d87e1665eeaad3f2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:18:33</sys_updated_on>
+        <ui_id>f4abfaba-20c6-40b1-ad00-63deadec3a27</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnWdDTjn0LHAQo0DZAE+TSBsKKpGyilKiSVBxV8L93qYdtxAbaoDn2Zg53lzPDodwR1di6seZBXRsjNhVZfXvyiKgchr87UkHJyYpQVTFhhaqIR55BNg7rujyJFzyh0eyqCPNZkoTpbLlg4Szl0XIRcpqyiPtQ11phT2YsWL7ff2+CIGYDyhnOY8LUEtrHdx5Lt0IyzUdJNWhUYrkmq+7VlmB46hLSIg2DlMbRPI6CILpKwnwe52HEYuDJHAdKyLnE0vWJFxfssW3tIGO1qDbj+tPYej+BSjNHJQo8wl8srxhSXhUgDfdICRUDq3RLVlY3CGgO7K6S7aFiKyqL04irfTHiF3eTgsBVFhx1UT7sHpbZ6PEAFzdgAak01DZ6LKVbJSg3gyOMF9BIuz7FhoK7ulfZt1jI5dStZFNWXwYzyGHAdKWINAZJ8NopddxHIcX9Vu2+TixvRdW7Mm5KRUEeVmDRu7yxjk9HuOQlDspKvHB0NHO3Lvpm5FL6G4kLv5Bqh4e6XPtAHXEfjQX/FvGbHn4ELZyKzzgGmzELJjNUi3rS1h9O9h4xrVlLMOaoEc3NfjaO4aB41JYN9riWftA1HvzMRxl77/xFZT1wfFbnL+LNYS4CKMIlDS+HGeJLYf4wZPQ80hO/t+Q6/EOuR+Svgp2m/3P9z7l2NHMwgmb9tx3HuU/LOwb7yQV4OPRgNhUGuT047OP0j+I2WkyUoKfQTukfTtUR2/8G/Bql3psGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">958fc28483530310d87e1665eeaad35c</block>
+        <comment/>
+        <connected_to>f4abfaba-20c6-40b1-ad00-63deadec3a27</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Network Access Request Approval">698fc28483530310d87e1665eeaad3af</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_id>ed8fc28483530310d87e1665eeaad3f4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 15:18:33</sys_updated_on>
+        <ui_id>454e7a71-bdce-4618-8d7d-0899ad86d767</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=698fc28483530310d87e1665eeaad3af"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=698fc28483530310d87e1665eeaad3af"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_698fc28483530310d87e1665eeaad3af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:25</sys_created_on>
+        <sys_id>298fc28483530310d87e1665eeaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 13:03:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_698fc28483530310d87e1665eeaad3af</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_id>ed8fc28483530310d87e1665eeaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 13:03:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_698fc28483530310d87e1665eeaad3af"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_698fc28483530310d87e1665eeaad3af"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>b15ded37834b4b50d87e1665eeaad3c6</sys_id>
+        <latest_snapshot>698fc28483530310d87e1665eeaad3af</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch3-05-25-2026_06-12-2026_1106.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b15ded37834b4b50d87e1665eeaad3c6^sys_idNOT INbd8f068483530310d87e1665eeaad331"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"bd8f068483530310d87e1665eeaad331","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>b15ded37834b4b50d87e1665eeaad3c6</plan_id>
+        <snapshot>e58c9d5d831b4b10d87e1665eeaad332</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 13:03:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd8f068483530310d87e1665eeaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 13:03:26</sys_updated_on>
+        <trigger display_value="">3d8f068483530310d87e1665eeaad330</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b15ded37834b4b50d87e1665eeaad3c6"/>
+</record_update>

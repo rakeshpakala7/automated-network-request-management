@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Wi-Fi Access Request">6d28225983938b10d87e1665eeaad3fe</catalog_item>
+        <catalog_variable>IO:a44472d183178b10d87e1665eeaad39e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:10:22</sys_created_on>
+        <sys_id>9367ba9983178b10d87e1665eeaad3d9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>access_end_date</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_9367ba9983178b10d87e1665eeaad3d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:13:06</sys_updated_on>
+        <table/>
+        <ui_policy display_value="hide end date when access duration is permanent">9337369983178b10d87e1665eeaad303</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>access_end_date</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=9367ba9983178b10d87e1665eeaad3d9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</application>
+        <file_path/>
+        <instance_id>482fe532ebc2cf5056eafddacad0cdfd</instance_id>
+        <instance_name>dev439522</instance_name>
+        <name>catalog_ui_policy_action_9367ba9983178b10d87e1665eeaad3d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Wi-Fi Access Request">6d28225983938b10d87e1665eeaad3fe</catalog_item><catalog_variable>IO:a44472d183178b10d87e1665eeaad39e</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-12 13:10:22</sys_created_on><sys_id>9367ba9983178b10d87e1665eeaad3d9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>access_end_date</sys_name><sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope><sys_update_name>catalog_ui_policy_action_9367ba9983178b10d87e1665eeaad3d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-12 13:13:06</sys_updated_on><table/><ui_policy display_value="hide end date when access duration is permanent">9337369983178b10d87e1665eeaad303</ui_policy><value/><value_action>ignore</value_action><variable>access_end_date</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=9367ba9983178b10d87e1665eeaad3d9"/></record_update>]]></payload>
+        <payload_hash>-676829967</payload_hash>
+        <record_name>access_end_date</record_name>
+        <reverted_from/>
+        <source>530674b783834b50d87e1665eeaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:13:06</sys_created_on>
+        <sys_id>9a18f61d83178b10d87e1665eeaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a095c00e870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:13:06</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>5a18f61d87178b10c7d5fdd63f6176b2</update_guid>
+        <update_guid_history>5a18f61d87178b10c7d5fdd63f6176b2:-676829967,1bd73ed9f9178b10b68c7865a4ad47d9:-1930154006,de773e9903178b10f2c4f7c1f9f8fc25:-271637795</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="access_end_date">3458725d83178b10d87e1665eeaad3a9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 13:14:05</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>34e6b90cf8a1478591f912b4e13ce2b1</sys_id>
+        <sys_metadata>9367ba9983178b10d87e1665eeaad3d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>access_end_date</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_scope_delete display_value="">3cfc7b13807c4058afa4a9815f8cf240</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_9367ba9983178b10d87e1665eeaad3d9</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_9367ba9983178b10d87e1665eeaad3d9">9a18f61d83178b10d87e1665eeaad3b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 13:14:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

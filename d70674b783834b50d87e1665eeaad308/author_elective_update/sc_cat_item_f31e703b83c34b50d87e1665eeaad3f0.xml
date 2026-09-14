@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <cc_render_type>system</cc_render_type>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Network Acess Request</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f31e703b83c34b50d87e1665eeaad3f0&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <secondary_owners/>
+        <short_description>Requesting for network access</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 12:30:35</sys_created_on>
+        <sys_id>f31e703b83c34b50d87e1665eeaad3f0</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>Network Acess Request</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name>sc_cat_item_f31e703b83c34b50d87e1665eeaad3f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:04:35</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>48</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=f31e703b83c34b50d87e1665eeaad3f0"/>
+    <fx_price action="DELETE" query="id=f31e703b83c34b50d87e1665eeaad3f0"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>f31e703b83c34b50d87e1665eeaad3f0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 12:30:35</sys_created_on>
+        <sys_id>7a6eb03b83c34b50d87e1665eeaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 12:30:35</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>f31e703b83c34b50d87e1665eeaad3f0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 12:30:35</sys_created_on>
+        <sys_id>f66eb03b83c34b50d87e1665eeaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 12:30:35</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</application>
+        <file_path/>
+        <instance_id>482fe532ebc2cf5056eafddacad0cdfd</instance_id>
+        <instance_name>dev439522</instance_name>
+        <name>sc_cat_item_f31e703b83c34b50d87e1665eeaad3f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><cc_render_type>system</cc_render_type><checked_out>false</checked_out><cost>0</cost><custom_cart/><delivery_plan/><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow display_value="Network Access Request Approval">b15ded37834b4b50d87e1665eeaad3c6</flow_designer_flow><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Network Acess Request</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_save_as_draft>false</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f31e703b83c34b50d87e1665eeaad3f0&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><recurring_price>0</recurring_price><request_method/><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><secondary_owners/><short_description>Requesting for network access</short_description><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state>published</state><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-07 12:30:35</sys_created_on><sys_id>f31e703b83c34b50d87e1665eeaad3f0</sys_id><sys_mod_count>48</sys_mod_count><sys_name>Network Acess Request</sys_name><sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope><sys_update_name>sc_cat_item_f31e703b83c34b50d87e1665eeaad3f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-14 09:04:35</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><version>48</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=f31e703b83c34b50d87e1665eeaad3f0"/><fx_price action="delete_multiple" query="id=f31e703b83c34b50d87e1665eeaad3f0"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>f31e703b83c34b50d87e1665eeaad3f0</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-07 12:30:35</sys_created_on><sys_id>7a6eb03b83c34b50d87e1665eeaad346</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-07 12:30:35</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>recurring_price</field><id>f31e703b83c34b50d87e1665eeaad3f0</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-07 12:30:35</sys_created_on><sys_id>f66eb03b83c34b50d87e1665eeaad348</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-07 12:30:35</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1318368244</payload_hash>
+        <record_name>Network Acess Request</record_name>
+        <reverted_from/>
+        <source>530674b783834b50d87e1665eeaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:04:36</sys_created_on>
+        <sys_id>2162d00283df8f10d87e1665eeaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09f2941930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:04:36</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>ed62d0027bdf8f106a0cb46ea4ae0c91</update_guid>
+        <update_guid_history>ed62d0027bdf8f106a0cb46ea4ae0c91:-1318368244,7e18ee19ac938b109a29d23c18c3daa9:-1761328822,a93cd15d3b1b4b1048ab1a8f2d430460:1774149732,67792a8874170310101ed82f9d73d67c:-553432403,726966889e17031010aa81a96e043f9d:1830156140,9649228808170310b362bfeb73f690a2:-81222613,740dc9b72d474b5078e57585a88052ea:-1992601366,1fcc05b770474b5018566283865c1167:390987177,59bb41373f474b5039adf02f8d953fc4:-1520391576,fcabcdf34a474b506d2a64b4b8ba7223:-621051182,a38b0df305474b5069884d98980da6a0:1762537361,207b09f334474b50fe9b2069d26d60bf:-148841392,cc18c53f10074b50eec6b152ba8afb1d:-2060220145,f3f7c53f33074b50f2a9c8c3020d0002:323368398,1df7453ff4074b507134c81b87d1f4b1:-1588010355,8fe78dfbcb074b503f8c0ae4a9a81254:795578188,41e7c13f1a074b505cf073ed76f2ebc8:-1115800565,7de5c13b3b074b505650b20e7993cdcc:1267787978,dce5c13b18074b50948f30ad7b109b06:-643590775,94d5413bce074b50fdd9d7973bff9a46:255749619,db5581f75b074b5056e71363dbed2419:-1655629134,2c5541f77c074b5078b066736e6fd130:727959409,324501f7e6074b50c3f4920b71f5bb52:-1183419344,c0458db738074b50b67d0710460c372f:1200169199,4725c9b7c1074b50f9f2f264d461c182:-711209554,3df405b74b074b50d4bfa4d15e47bf87:1672378989,d8b48977bd074b5038ba19b286830dc9:-238999764,f39385f345074b50e8376b2d85f28a46:2144588779,184389b3d1074b50ba9f4c3a9f7d397f:233210026,e5f201b34b074b50f6e8ec549d006c57:1132550420,2bc2c9734b074b50e328bc7477d418d8:-778828333,51c281336e074b50938a8c41868b9637:1604760210,86b209732c074b507d32df5145c34f79:-306618543,f8a2c53376074b50e59051fd7edd267f:2076970000,77820533e7074b50b9bf552837c4e33f:165591247,f872cd3316074b50fea042aa1773d5bd:-1745787506,99120533d8074b50bc6d57d4e8955746:637801037,c9f1cdff8dc34b50314ad8a8d51be639:-1273577716,0cd1857f79c34b505611ed4ec434b16f:1110010827,aeb181ff05c34b504de0521692861aa6:1585976945,478141ff49c34b50fc669c4ed09f08c1:-325401808,83d00d7ff9c34b5054f07ed419fe263b:2058186735,a8a0057f54c34b500cff1f8441fb3526:146807982,5c90017fc0c34b503f62c2f037eeb269:-1764570771,5070093f7fc34b503d08a5c7a56ee4b0:619017772,d930853b97c34b5094a408cf454d0ff5:-1292360981,edbf74fb58c34b50150d67d6e796fce0:1091227562,876ef83b2dc34b505b4bd7bd02bdadd4:-820151191,fa6ef83b04c34b504f5ffa3309171ac0:1265455851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Network Acess Request">e562d00283df8f10d87e1665eeaad3a5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 09:04:36</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>10773ed5218a4b0f84caf1cec6ac9f39</sys_id>
+        <sys_metadata>f31e703b83c34b50d87e1665eeaad3f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network Acess Request</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_scope_delete display_value="">3cfc7b13807c4058afa4a9815f8cf240</sys_scope_delete>
+        <sys_update_name>sc_cat_item_f31e703b83c34b50d87e1665eeaad3f0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_f31e703b83c34b50d87e1665eeaad3f0">2162d00283df8f10d87e1665eeaad393</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 09:04:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

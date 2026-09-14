@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="VNS Access Request">e3ebc25d839f4b10d87e1665eeaad3fe</catalog_item>
+        <catalog_variable>IO:df34da9d83df4b10d87e1665eeaad3e5</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 10:40:57</sys_created_on>
+        <sys_id>a7f4d61183138b10d87e1665eeaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>access_end_date</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a7f4d61183138b10d87e1665eeaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 10:40:57</sys_updated_on>
+        <table/>
+        <ui_policy display_value="show end date for temporary vpn">26b45edd83df4b10d87e1665eeaad38f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>access_end_date</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=a7f4d61183138b10d87e1665eeaad384"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</application>
+        <file_path/>
+        <instance_id>482fe532ebc2cf5056eafddacad0cdfd</instance_id>
+        <instance_name>dev439522</instance_name>
+        <name>catalog_ui_policy_action_a7f4d61183138b10d87e1665eeaad384</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="VNS Access Request">e3ebc25d839f4b10d87e1665eeaad3fe</catalog_item><catalog_variable>IO:df34da9d83df4b10d87e1665eeaad3e5</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-12 10:40:57</sys_created_on><sys_id>a7f4d61183138b10d87e1665eeaad384</sys_id><sys_mod_count>0</sys_mod_count><sys_name>access_end_date</sys_name><sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope><sys_update_name>catalog_ui_policy_action_a7f4d61183138b10d87e1665eeaad384</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-12 10:40:57</sys_updated_on><table/><ui_policy display_value="show end date for temporary vpn">26b45edd83df4b10d87e1665eeaad38f</ui_policy><value/><value_action>ignore</value_action><variable>access_end_date</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=a7f4d61183138b10d87e1665eeaad384"/></record_update>]]></payload>
+        <payload_hash>-1890209169</payload_hash>
+        <record_name>access_end_date</record_name>
+        <reverted_from/>
+        <source>530674b783834b50d87e1665eeaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 10:40:57</sys_created_on>
+        <sys_id>2545125183138b10d87e1665eeaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09534c1a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 10:40:57</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>e145125136138b10e61f41ef674b4350</update_guid>
+        <update_guid_history>e145125136138b10e61f41ef674b4350:-1890209169</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="access_end_date">f755ee9183938b10d87e1665eeaad3ae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 11:51:17</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0551f0603ad644fcab96795692312839</sys_id>
+        <sys_metadata>a7f4d61183138b10d87e1665eeaad384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>access_end_date</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_scope_delete display_value="">3cfc7b13807c4058afa4a9815f8cf240</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_a7f4d61183138b10d87e1665eeaad384</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_a7f4d61183138b10d87e1665eeaad384">2545125183138b10d87e1665eeaad351</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 11:51:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

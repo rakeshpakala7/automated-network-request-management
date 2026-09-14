@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Users Affected">c0ba8b9183d78b10d87e1665eeaad3c7</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-12 14:44:31</sys_created_on>
+        <sys_id>610d0fd583d78b10d87e1665eeaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Entire Office</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_2049346_automa_0">d70674b783834b50d87e1665eeaad308</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">d70674b783834b50d87e1665eeaad308</sys_scope>
+        <sys_update_name>question_choice_610d0fd583d78b10d87e1665eeaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-12 14:44:31</sys_updated_on>
+        <text>Entire Office</text>
+        <value>entire_office</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=610d0fd583d78b10d87e1665eeaad301"/>
+</record_update>
